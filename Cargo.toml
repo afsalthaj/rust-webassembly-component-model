@@ -1,0 +1,11 @@
+[package]
+name = "component-with-wit"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0.66"
+wasmtime = { git = "https://github.com/bytecodealliance/wasmtime", rev = "b9e4474f1f04ae15ca27ca0ed695d798e1c0a295", features = ["component-model"] }
+wit-bindgen-guest-rust = { git = "https://github.com/bytecodealliance/wit-bindgen", default_features = false }
