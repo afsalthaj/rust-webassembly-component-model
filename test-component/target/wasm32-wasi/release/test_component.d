@@ -1,1 +1,0 @@
-/Users/afsalthaj/projects/component-with-wit/test-component/target/wasm32-wasi/release/test_component.wasm: /Users/afsalthaj/projects/component-with-wit/test-component/src/lib.rs /Users/afsalthaj/projects/component-with-wit/test-component/wit/host.wit
